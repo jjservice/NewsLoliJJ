@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0% auto;
+    background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
+    
+
+    
+}
+
+.container{
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0% auto;
+    box-shadow: 0px 2px 10px gold;
+    z-index: 1;
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px lightsalmon;
+   
+}
+h1 ion-icon{
+    color: rgba(255, 217, 0, 0.596);
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid gold;
+    box-shadow: 2px 3px 4px maroon;
+    border-radius: 50px;
+}
+h3{
+    color: darkgray;
+    text-shadow: 1px 1px 1px darkblue;
+    margin-bottom: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+h3 ion-icon{
+    color: rgba(255, 217, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 50px;
+}
+
+
+.image1 img{
+    border: 4px solid rgba(255, 217, 0, 0.712);
+    border-radius: 70px;
+    box-shadow: 0px 2px 10px lightsalmon;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.p1{
+    color: white;
+    text-shadow: 2px 2px 4px blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: 1px solid gold underline;
+}
+.p2desc{
+    color: wheat;
+    text-shadow: 2px 2px 4px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;   
+}
+.writername{
+    color: white;
+    text-shadow: 2px 2px 4px darkblue;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: 1px solid gold underline;
+}
+.learnmore-btn{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border: 2px solid lightseagreen;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.learnmore-btn:hover{
+    background-color: lightseagreen;
+    box-shadow: 0px 2px 20px lightseagreen;
+
+}
+.homebtn{
+    color: white;
+    background-color: rgba(0, 0, 139, 0.322);
+    align-items: center;
+    margin: 0% auto;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-bottom: 1px solid gold;
+    box-shadow: 0px 2px 10px lightsalmon;
+    color: rgba(255, 217, 0, 0.637);
+    background-image: url(MusicGig.gif);
+    background-position: center;
+    background-size: 40px;
+}
+
+.homebtn:hover{
+    color: gold;
+    box-shadow: 0px 2px 20px gold;
+}
+
+
+.content{
+    color: white;
+    text-shadow: 2px 2px 4px lightsalmon;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+ 
+ 
+
+  

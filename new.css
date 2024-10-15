@@ -72,47 +72,78 @@ h3 ion-icon{
     margin-bottom: 10px;
     cursor: pointer;
 }
+summary{
+    color: transparent;
+    font-size: 20PX;
+    text-shadow: 2px 2px 4px darkblue;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+#summary-title{
+    text-decoration: 1px solid gold underline;
+    margin-bottom: 10px;
+    border-bottom: 2px solid blue;
+}
 .p1{
+    text-decoration: 1px solid gold underline;
     color: white;
     text-shadow: 2px 2px 4px blue;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: bold;
-    text-decoration: 1px solid gold underline;
+    text-decoration: none;
+    box-shadow: 0px 2px 10px lightsalmon;
+    border-radius: 20px;
 }
 .p2desc{
     color: wheat;
     text-shadow: 2px 2px 4px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     padding-bottom: 10px;   
+    cursor: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .writername{
-    color: white;
-    text-shadow: 2px 2px 4px darkblue;
+    text-align: center;
+    text-decoration: none;
+    color: darkgray;
+    text-shadow: 1px 1px 1px black;
     font-size: 14px;
     font-weight: bold;
     padding-bottom: 10px;
-    text-decoration: 1px solid gold underline;
 }
-.learnmore-btn{
+ .learnmore-btn{
     color: white;
-    text-shadow: 2px 2px 4px black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px gold;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.288);
     border: 2px solid lightseagreen;
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: cover;
     border-radius: 20px;
     cursor: pointer;
-    padding: 5px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    padding: 5px 2px;
+    margin: auto;
+    
 }
 .learnmore-btn:hover{
     background-color: lightseagreen;
     box-shadow: 0px 2px 20px lightseagreen;
+    
 
 }
 .homebtn{

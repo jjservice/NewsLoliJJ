@@ -220,34 +220,6 @@ summary{
     
 
 }
-.homebtn{
-    margin-bottom: 20%;
-    color: white;
-    background-color: rgba(0, 0, 139, 0.322);
-    align-items: center;
-    display: flex;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 5px 25px;
-    border-bottom: 2px solid lightskyblue;
-    box-shadow: 0px 2px 10px lightsalmon;
-    color: rgba(255, 217, 0, 0.637);
-    background-image: url(MusicGig.gif);
-    background-position: center;
-    background-size: 40px;
-}
-
-.homebtn:hover{
-    color: gold;
-    box-shadow: 0px 2px 20px gold;
-   
-}
-
-
 .content{
     color: white;
     text-shadow: 2px 2px 4px lightsalmon;
@@ -326,6 +298,89 @@ summary{
 }
 
 
+.Nav-container{
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+
+}
+.Nav-container nav{
+    margin:  auto;
+    display: flex;
+    gap: 20px;
+  
+   
+    
+}
+.Nav-container li{
+    list-style-type: none;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-bottom: 1px solid wheat;
+    box-shadow: 0px 2px 10px darkgray;
+    opacity: 80%;
+    cursor: pointer;
+   
+    
+    
+}
+.Nav-container a{
+    color: wheat;
+    text-shadow: 2px 2px 2px darkblue;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.Nav-container li:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease-in;
+    box-shadow: 0px 2px 10px gold;
+    opacity: 100%;
+}
+.Home-nav{
+    background-image: url(MusicGig.gif);
+    background-position: center;
+    background-size: 20%;
+    transition: 1s ease-in-out;
+   
+}
+body.lightPlayer .Home-nav{
+    background-image: url(MusicGig.gif);
+    background-position: center;
+    background-size: 150%;
+}
+.Weather-nav{
+    background-image: url(WeatherGif.gif);
+    background-position: center;
+    background-size: 30%;
+    transition: 1s ease-in-out;
+   
+}
+body.lightPlayer .Weather-nav{
+    background-image: url(WeatherGif.gif);
+    background-position: center;
+    background-size: 100%;
+}
+.Video-nav{
+    background-image: url(videocampicc2222.jpg);
+    background-position: center;
+    background-size: 20%;
+    transition: 1s ease-in-out;
+   
+}
+body.lightPlayer .Video-nav{
+    background-image: url(videocampicc2222.jpg);
+    background-position: center;
+    background-size: 80%;
+}
  
  
 

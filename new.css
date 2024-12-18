@@ -355,7 +355,7 @@ summary{
 body.lightPlayer .Home-nav{
     background-image: url(MusicGig.gif);
     background-position: center;
-    background-size: 150%;
+    background-size: 100%;
 }
 .Weather-nav{
     background-image: url(WeatherGif.gif);
@@ -367,7 +367,7 @@ body.lightPlayer .Home-nav{
 body.lightPlayer .Weather-nav{
     background-image: url(WeatherGif.gif);
     background-position: center;
-    background-size: 100%;
+    background-size: 80%;
 }
 .Video-nav{
     background-image: url(videocampicc2222.jpg);
@@ -379,7 +379,7 @@ body.lightPlayer .Weather-nav{
 body.lightPlayer .Video-nav{
     background-image: url(videocampicc2222.jpg);
     background-position: center;
-    background-size: 80%;
+    background-size: 75%;
 }
  
  
